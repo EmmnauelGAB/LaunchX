@@ -7,8 +7,8 @@ let myFooter = `
         </div>
         <div class="col-sm footerIcons">
           <h5 class="footerTitle">SIGUENOS</h2>
-            <img src="src/images/icons/whatsapp.png" alt="imagen telefono" width="35px" class="iconStyle " />
-            <img src="src/images/icons/correo.png" alt="imagen email" width="35px" class="iconStyle" />
+            <img src="../src/images/icons/whatsapp.png" alt="imagen telefono" width="35px" class="iconStyle " />
+            <img src="../src/images/icons/correo.png" alt="imagen email" width="35px" class="iconStyle" />
             <!-- <img src="src/images/icons/facebook.png" alt="imagen facebook" width="35px" class="iconStyle" />
             <img src="src/images/icons/instagram.png" alt="imagen instagram" width="35px" class="iconStyle" /> -->
         </div>

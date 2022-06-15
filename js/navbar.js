@@ -1,5 +1,5 @@
 let myNavbar = `
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">
       <img src="src/images/icons/pasteleria.png" alt="" width="100" height="40">
     </a>
