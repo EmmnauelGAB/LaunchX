@@ -10,40 +10,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <link rel="stylesheet" href="../src/styles/main.css">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!--NAVBAR-->
-  <nav class="navbar navbar-expand-lg navStyle ">
-    <a class="navbar-brand" href="../index.html">
-      <img src="../src/images/icons/pasteleria.png" alt="" width="100" height="40">
-    </a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a type="button" class="btn btnNav" href="./pasteles.html">Pasteles</a>
-        </li>
-        <li class="nav-item active">
-          <a type="button" class="btn btnNav" href="./creatupastel.html">Crea Tu Pastel</a>
-        </li>
-        <li class="nav-item active">
-          <a type="button" class="btn btnNav" href="./pedido.html">Pedidos</a>
-        </li>
-        <li class="nav-item active">
-          <a type="button" class="btn btnNav" href="./contacto.html">Contacto</a>
-        </li>
-        <li class="nav-item active">
-          <a type="button" class="btn btnNav" href="./pastelero.html">Pastelero</a>
-        </li>
-        <li class="nav-item active">
-          <a type="button" class="btn btnNav" href="./inventario.html">Inventario</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <button type="button" class="btn btnLogin">INGRESAR</button>
-      </form>
-    </div>
-  </nav>
+  <div id="anclaNavbarP"></div>
   <!--JUMBOTRON-->
   <header class="jumbotron jumbotronInicio">
     <div class="heroText">
@@ -66,7 +38,7 @@
               <h2 class="mb-0">
                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
                   data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <h3 class="text-center">  <span style="color: var(--ColorPinkDark);">Pasteles</span></h3>
+                  <h3 class="text-center"> <span style="color: var(--ColorPinkDark);">Pasteles</span></h3>
                 </button>
               </h2>
             </div>
@@ -110,8 +82,8 @@
               <h2 class="mb-0">
                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                   data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <h3 class="text-center">  <span style="color: var(--ColorPinkDark);"> Decoraciones</span></h3>
-                 
+                  <h3 class="text-center"> <span style="color: var(--ColorPinkDark);"> Decoraciones</span></h3>
+
                 </button>
               </h2>
             </div>
@@ -171,7 +143,7 @@
                 <h2 class="mb-0">
                   <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                     data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <h3 class="text-center">  <span style="color: var(--ColorPinkDark);"> Adornos</span></h3>
+                    <h3 class="text-center"> <span style="color: var(--ColorPinkDark);"> Adornos</span></h3>
                   </button>
                 </h2>
               </div>
@@ -236,38 +208,11 @@
 
 
 
-  <!--FOOTER-->
-  <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <img src="../src/images/icons/pasteleria.png" alt="" width="200px" class="">
-      </div>
-      <div class="col-sm ">
-        <h5 class="footerTitle text">SUCURSALES</h2>
-          <ul class="">
-            <li>ROMA</li>
-            <li>POLANCO</li>
-            <li>SANTA FE</li>
-            <li>COYOACAN</li>
-            <li>BELLAS ARTES</li>
-          </ul>
-      </div>
-      <div class="col-sm footerIcons">
-        <h5 class="footerTitle">SIGUENOS</h2>
-          <img src="../src/images/icons/whatsapp.png" alt="imagen telefono" width="35px" class="iconStyle "/>
-          <img src="../src/images/icons/correo.png" alt="imagen email" width="35px" class="iconStyle"/>
-          <img src="../src/images/icons/facebook.png" alt="imagen facebook" width="35px" class="iconStyle"/>
-          <img src="../src/images/icons/instagram.png" alt="imagen instagram" width="35px" class="iconStyle"/>
+  <!--Boton whatsapp-->
+  <div id="myWhats"></div>
 
-      </div>
-    </div>
-    
-  </div>
-  <div class="footerStyle">
-    <small>&copy; 2022 <b>Sweet Dreams</b> - Todos los Derechos Reservados.</small>
-  </div>
-</footer>
+  <!--FOOTER-->
+  <div id="anclaFooter"></div>
 
 
   <!--JS SCRPTS-->
@@ -277,7 +222,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
     crossorigin="anonymous"></script>
-  ></script>
+  </script>
+  <script src="../js/navbar2.js"></script>
+  <script src="../js/footer.js"></script>
 </body>
 
 </html>
