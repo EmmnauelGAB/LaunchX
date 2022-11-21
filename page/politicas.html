@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gylicia Bakery</title>
+  <link rel="shortcut icon" href="../src/images/icons/cupcake.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="../src/styles/main.css">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <div id="anclaNavbarP"></div>
+  <!--JUMBOTRON-->
+  <header class="jumbotron jumbotronInicio">
+    <div class="heroText">
+      <h1 class="display-4 titulopagina font-weight-bold text-center" style="margin: top 100px;">
+        Gylicia Bakery
+      </h1>
+      <!--<p class="lead font-weight-light">Una dulzura hecha realidad</p>-->
+      <hr class="my-4">
+      <a class="btn btn-lg btnJB" role="button" data-toggle="modal" data-toggle="modal"
+        data-target="#exampleModalCenter">INICIAR PEDIDO</a>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="color: #000;">
+            <h5>!Aviso de compra¡</h5>
+            <p>Se da por entendido que al momento de ordenar cualquiera de nuestros productos el cliente acepta los
+              términos, condiciones y políticas de entrega, Que puedes consultar en.
+              <hr>
+              <a href="./politicas.html" role="button" class="btn btn-danger popover-test" title="Popover title"
+                data-content="Popover body content is set in this attribute.">Políticas</a>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://api.whatsapp.com/send?phone=525540635775"><button type="button" class="btn btn-primary" >Aceptar y ordenar</button></a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--cuerpo-->
+
+
+  <!--FOOTER-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <img src="../src/images/icons/pasteleria.png" alt="" width="200px" class="">
+        </div>
+        <div class="col-sm ">
+          <h5 class="footerTitle text">Políticas</h2>
+            <ul class="list-group" style="color: black;">
+              <li class="list-group-item">1. Cualquier pedido queda agendado hasta recibir el 50% de anticipo. (enviar
+                comprobante de transferencia).</li>
+              <li class="list-group-item">2. Todos los pedidos deben ser con mínimo una semana de anticipación a la
+                fecha de entrega. </li>
+              <li class="list-group-item">3. Cualquier cambio debe hacerse mínimo 4 días antes a la fecha de entrega del
+                pedido.</li>
+              <li class="list-group-item">4. Las cancelaciones con menos de 48 horas de anticipación a la fecha de
+                entrega del pedido, no tendrá derecho a devolución parcial, ni total del importe o monto pagado.</li>
+              <li class="list-group-item">5. Para cuidar la frescura y calidad del producto. En caso de no recoger el
+                pedido en la fecha pactada y dentro del horario acordado. El cliente pierde el anticipo y reembolso del
+                mismo.</li>
+              <li class="list-group-item">6. El monto total del producto debe ser cubierto para la entrega del mismo.
+              </li>
+              <li class="list-group-item">7. Gylicia Bakery no se hace responsable por ningún daño al producto una vez
+                entregado. La persona que lo recibe es responsable de su cuidado puesto que es un producto que debe
+                mantenerse en refrigeración. </li>
+              <li class="list-group-item">8. Gylicia Bakery se reserva el derecho de hacer uso de cualquier fotografía
+                que tome a sus productos sin ningún tipo de compensación al cliente/comprador.</li>
+              <li class="list-group-item">9. Nuestros productos pueden contener productos alérgenos (leche, trigo,
+                nueces, soya entre otros). El cliente es responsable de notificar a sus invitados de este riesgo sin
+                hacer responsable a Gylicia Bakery por reacciones alérgicas.</li>
+              <li class="list-group-item">10. Gylicia Bakery ofrece servicio de entrega a domicilios dentro de nuestra
+                cobertura en una hora de entrega aproximada. Por motivos que no podemos controlar (tráfico, etc.) no
+                podemos asegurar la entrega en una hora exacta.</li>
+              <li class="list-group-item">11. No se realizan réplicas exactas de otros diseños.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <!--Boton whatsapp-->
+    <div id="myWhats"></div>
+
+    <!--FOOTER-->
+    <div id="anclaFooter"></div>
+
+    <!--JS SCRPTS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"></script>
+    <script src="../js/navbar2.js"></script>
+    <script src="../js/footer.js"></script>
+</body>
+
+</html>

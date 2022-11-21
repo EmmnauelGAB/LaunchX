@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Swet Dreams</title>
+  <title>Gylicia Bakery</title>
   <link rel="shortcut icon" href="../src/images/icons/cupcake.png" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -19,13 +19,39 @@
   <!--JUMBOTRON-->
   <header class="jumbotron jumbotronInicio">
     <div class="heroText">
-      <h1 class="display-4 titulopagina font-weight-bold text-center">
-        SWET DREAMS
+      <h1 class="display-4 titulopagina font-weight-bold text-center" style="margin: top 100px;">
+        Gylicia Bakery
       </h1>
-
-      <p class="lead font-weight-light">Una dulzura hecha realidad</p>
+      <!--<p class="lead font-weight-light">Una dulzura hecha realidad</p>-->
       <hr class="my-4">
-      <a class="btn btn-lg btnJB" href="#" role="button">INICIAR PEDIDO</a>
+      <a class="btn btn-lg btnJB" role="button" data-toggle="modal" data-toggle="modal"
+        data-target="#exampleModalCenter">INICIAR PEDIDO</a>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" style="color: #000;">
+            <h5>!Aviso de Orden¡</h5>
+            <p>Se da por entendido que al momento de ordenar cualquiera de nuestros productos el cliente acepta los términos, condiciones y políticas de entrega, Que puedes consultar en.
+              <hr>
+              <a href="./politicas.html" role="button" class="btn btn-danger popover-test" title="Popover title"
+                data-content="Popover body content is set in this attribute.">Políticas</a>
+            </p>
+          </div>
+          <div class="modal-footer" >
+            <a href="https://api.whatsapp.com/send?phone=525540635775"><button type="button" class="btn btn-primary" >Aceptar y ordenar</button></a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
   <!--Collapse items -->
@@ -47,29 +73,98 @@
               <div class="card-body">
                 <div class="card-deck">
                   <div class="card">
-                    <img src="../src/images/photos/naranja.jpg" class="card-img-top" alt="...">
+                    <img src="../src/images/photos/Zanahoria.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Pasteles de Naranja</h5>
-                      <p class="card-text">Pan de naranja húmedo en tres leches con chesecake en centro</p>
-                      <p class="card-text"><small class="text-muted">$ 500</small></p>
+                      <h5 class="card-title">Zanahoria</h5>
+                      <p class="card-text">bizcocho de zanahoria, nuez, coco y canela, relleno de betún de queso crema.
+                      </p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 300</span></h4>
+                      </p>
+
+                      <button type="button" class="btn btnLogin" data-toggle="modal" data-toggle="modal"
+                        data-target="#exampleModalCenter">Ordenar</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../src/images/photos/Arroz.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Arroz con leche</h5>
+                      <p class="card-text">bizcocho de vainilla, jarabe de 3 leches, relleno de arroz y canela.</p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 300</span></h4>
+                      </p>
                       <button type="button" class="btn btnLogin">Ordenar</button>
                     </div>
                   </div>
                   <div class="card">
-                    <img src="../src/images/photos/Chocolate Tradicional.jpg" class="card-img-top" alt="...">
+                    <img src="../src/images/photos/cajeta.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Chocolate Tradicional</h5>
-                      <p class="card-text">Pan de chocolate artesanal con relleno y cubierta de chocolate</p>
-                      <p class="card-text"><small class="text-muted">$ 500</small></p>
+                      <h5 class="card-title">Cajeta </h5>
+                      <p class="card-text">bizcocho de vainilla, jarabe de 3 leches, relleno de cajeta y almendras
+                        tostadas.</p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 300</span></h4>
+                      </p>
                       <button type="button" class="btn btnLogin">Ordenar</button>
                     </div>
                   </div>
                   <div class="card">
-                    <img src="../src/images/photos/Zanahoria Tradicional.jpg" class="card-img-top" alt="...">
+                    <img src="../src/images/photos/rompope.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Zanahoria Tradicional</h5>
-                      <p class="card-text">Pan esponjoso de zanahoria con nuestro ya conocido betún de matequilla </p>
-                      <p class="card-text"><small class="text-muted">$ 500</small></p>
+                      <h5 class="card-title">Rompope </h5>
+                      <p class="card-text">bizcocho de vainilla, jarabe de 3 leches, relleno de crema pastelera y nuez.
+                      </p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 300</span></h4>
+                      </p>
+                      <button type="button" class="btn btnLogin">Ordenar</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../src/images/photos/zarzamora.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Zarzamora</h5>
+                      <p class="card-text">bizcocho de vainilla, jarabe de 3 leches, relleno de mermelada de zarzamora y
+                        queso crema.</p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 300</span></h4>
+                      </p>
+                      <button type="button" class="btn btnLogin">Ordenar</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../src/images/photos/Oreo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Oreo</h5>
+                      <p class="card-text">bizcocho de chocolate, jarabe de 3 leches, relleno de queso y oreo.</p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 300</span></h4>
+                      </p>
+                      <button type="button" class="btn btnLogin">Ordenar</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../src/images/photos/flan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Flan </h5>
+                      <p class="card-text">bizcocho de vainilla y chocolate, jarabe de 3 leches, relleno de flan
+                        napolitano</p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 320</span></h4>
+                      </p>
+                      <button type="button" class="btn btnLogin">Ordenar</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../src/images/photos/selvanegra.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Selva negra </h5>
+                      <p class="card-text">bizcocho de chocolate, jarabe de naranja, relleno de crema, cereza y nuez.
+                      </p>
+                      <p class="card-text">
+                      <h4><span class="badge badge-pill badge-light" style="color: var(--ColorPinks)">$ 300</span></h4>
+                      </p>
                       <button type="button" class="btn btnLogin">Ordenar</button>
                     </div>
                   </div>
@@ -77,126 +172,7 @@
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <h3 class="text-center"> <span style="color: var(--ColorPinkDark);"> Decoraciones</span></h3>
 
-                </button>
-              </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                <div class="card">
-                  <h5 class="card-header">Tipos de decoraciones</h5>
-                  <div class="card-body">
-                    <p class="card-text">A la hora de decorar sus preparaciones, existe un sinfín de posibilidades donde
-                      se mezclan ingredientes, elementos y diseños que dan textura, sabor, color y forma. Veamos algunas
-                      de ellas:</p>
-                  </div>
-                </div>
-                <hr>
-                <div class="card-deck">
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Decoraciones en 3D</h5>
-                      <p class="card-text">Se usan moldes especiales para realizar círculos, cuadrados, triángulos,
-                        rectángulos, rombos y todo tipo de figuras geométricas que puedan dar un toque de profundidad y
-                        dimensionalidad. A su vez, proporcionan color, textura, uniformidad a la preparación, incluso
-                        recrean ilusiones ópticas.</p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Decoraciones florales</h5>
-                      <p class="card-text">Son una opción por excelencia cuando de sencillez, calidez, delicadeza y
-                        belleza se trata. Dan un toque orgánico, natural y fresco a la preparación y, en algunas
-                        ocasiones, de romanticismo. Suelen utilizarse flores comestibles o artificiales, las más comunes
-                        son: violetas, rosas, jazmines, crisantemos, margaritas, orquídeas, entre otras. Además, son un
-                        accesorio perfecto, ya que se pueden incorporar en diferentes partes o lugares de una torta o
-                        ponqué.
-
-                        Esta decoración es común en eventos como bodas, bautizos o primeras comuniones.</p>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <h5 class="card-title">Decoración semidesnuda o naked</h5>
-                      <p class="card-text">Ofrece un estilo vintage (término popular para referirse a una época o a una
-                        historia con un valor estético, significativo y artístico que trasciende en el tiempo), rústico
-                        y tradicional, pero elegante. No llevan ningún tipo de cobertura, pero entre pisos puede estar
-                        acompañado de cremas pasteleras (conozca los diferentes tipos de cremas aquí), betunes, frutas,
-                        flores, dulces, frutos secos y otros.
-
-                        Se recomienda para ocasiones que representen este tipo de concepto.</p>
-                    </div>
-                  </div>
-                </div>
-                <!--card desk-->
-              </div>
-              <!--Card Content-->
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingThree">
-                <h2 class="mb-0">
-                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <h3 class="text-center"> <span style="color: var(--ColorPinkDark);"> Adornos</span></h3>
-                  </button>
-                </h2>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                  <div class="card-deck">
-                    <div class="card">
-                      <img src="../src/images/photos/disney.webp" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Cake Topper Pastel Adorno Feliz Cumpleaños Disney Princesas</h5>
-                        <p class="card-text">DECORA TU PASTEL CON ESTE ACCESORIO!!!
-
-                          Super original!
-                          100% nuevo
-                          Excelente calidad</p>
-                        <hr style="margin-inline-end: 10px;">
-                        <p class="card-text"><small class="text-muted">$ 500</small></p>
-                        <button type="button" class="btn btn-primary">Ordenar</button>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="../src/images/photos/15.webp" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Cake Topper Adorno Pastel Numero 15 Quinceaños Plata /dorado</h5>
-                        <p class="card-text">INCREIBLE NUMERO 15 PARA PASTEL, MESA DE DULCES ETC,.
-                          COLORES DISPONIBLES PLATA, DORADO Y ROSA !
-
-                          MATERIAL BASE METALICA CON CRISTALES INCRUSTADOS, CONTAMOS CON COLOR PLATA Y DORADO
-                          MEDIDA 12 CM DE ALTO
-                          LUCE BELLISIMO!</p>
-                        <p class="card-text"><small class="text-muted">$ 500</small></p>
-                        <button type="button" class="btn btn-primary">Ordenar</button>
-                      </div>
-                    </div>
-                    <div class="card">
-                      <img src="../src/images/photos/boda.webp" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Cake Topper Corazón Pareja Acrílico Boda, Adorno Pastel</h5>
-                        <p class="card-text">INCREIBLE NUMERO 15 PARA PASTEL, MESA DE DULCES ETC,.
-                          COLORES DISPONIBLES PLATA, DORADO Y ROSA !
-
-                          MATERIAL BASE METALICA CON CRISTALES INCRUSTADOS, CONTAMOS CON COLOR PLATA Y DORADO
-                          MEDIDA 12 CM DE ALTO
-                          LUCE BELLISIMO!</p>
-                        <p class="card-text"><small class="text-muted">$ 500</small></p>
-                        <button type="button" class="btn btn-primary">Ordenar</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <!--end col-->
       </div>

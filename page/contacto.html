@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swet Dreams</title>
+    <title>Gylicia Bakery</title>
     <link rel="shortcut icon" href="../src/images/icons/cupcake.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="../src/styles/main.css">
@@ -16,29 +16,47 @@
     <!--JUMBOTRON-->
     <header class="jumbotron jumbotronInicio">
       <div class="heroText">
-        <h1 class="display-4 titulopagina font-weight-bold text-center">
-          CONTACTO
-        </h1> 
-        
-        <p class="lead font-weight-light">Una dulzura hecha realidad</p>
+        <h1 class="display-4 titulopagina font-weight-bold text-center" style="margin: top 100px;">
+          Gylicia Bakery
+        </h1>
+        <!--<p class="lead font-weight-light">Una dulzura hecha realidad</p>-->
         <hr class="my-4">
-        <a class="btn btn-lg btnJB" href="#" role="button">CONTACTO</a>
+        <a class="btn btn-lg btnJB" role="button" data-toggle="modal" data-toggle="modal"
+          data-target="#exampleModalCenter">INICIAR PEDIDO</a>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" style="color: #000;">
+              <h5>!Aviso de Orden¡</h5>
+              <p>Se da por entendido que al momento de ordenar cualquiera de nuestros productos el cliente acepta los términos, condiciones y políticas de entrega, Que puedes consultar en.
+                <hr>
+                <a href="./politicas.html" role="button" class="btn btn-danger popover-test" title="Popover title"
+                  data-content="Popover body content is set in this attribute.">Políticas</a>
+              </p>
+            </div>
+            <div class="modal-footer" >
+              <a href="https://api.whatsapp.com/send?phone=525540635775"><button type="button" class="btn btn-primary" >Aceptar y ordenar</button></a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
   <!--Contacto-->
-    <br>
-    <h2 class="ubicacionesTitulo">Nuestras sucursales</h2>
-    <br>
-    <br>
-    <br>
+
+    <h2 class="ubicacionesTitulo">Sucursal</h2>
+
+
   <div id="minimal-tabs">
-      <ul class="nav navs-tabs" role="tablist">
-        <li class="nav-item texto1" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Polanco</a></li>
-        <li class="nav-item texto1" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Roma</a></li>
-        <li class="nav-item texto1" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-3">Santa Fe</a></li>
-        <li class="nav-item texto1" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-4">Coyoacán</a></li>
-        <li class="nav-item texto1" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-5">Bellas Artes</a></li>
-      </ul>
 
       <div class="tab-content">
         <!-- MAP POLANCO-->
@@ -47,10 +65,10 @@
             <div class="row">
                 <div class="col-md-9">
                     <br>
-                    <br>
+
                     <p class="texto2">Nuestra ubicacion en el mapa</p>
                     <br>
-                    <div class="map-responsive"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12655.437770248325!2d-99.20199195276449!3d19.434681570504832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d202036d4843f9%3A0xe4d37732c0d3a976!2sPolanco%2C%20Polanco%20I%20Secc%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1646607814120!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=450&amp;hl=en&amp;q=Calle 2 pioquinto roldan numero 9 mazana 9 lote unidad habitacional vicente guerrero &amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/">format json</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:450px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:450px;}.gmap_iframe {height:450px!important;}</style></div>
                     <br>
                     <br>
                     <div class="row">
@@ -58,7 +76,7 @@
                       <fieldset>
                         <legend class="titulos"><i class="fa fa-location-arrow"></i>Teléfono:</legend>
                       </fieldset>
-                      <div class="subtitulos"><span>53-08-95-10</span></div>
+                      <div class="subtitulos"><span>55-40-63-57-75</span></div>
                     </div>
                     <div class="col-6 datos">
                       <fieldset>
@@ -67,9 +85,7 @@
                       <div class="subtitulos"><span>Lunes a Viernes</span></div>
                       <div class="subtitulos"><span>10:00 a.m a 8:00 p.m.</span></div>
                       <div class="subtitulos"><span>Sábados</span></div>
-                      <div class="subtitulos"><span>10:00 a.m a 6:00 p.m.</span></div>
-                      <div class="subtitulos"><span>Domingos</span></div>
-                      <div class="subtitulos"><span>11:00 a.m a 5:00 p.m.</span></div>
+                      <div class="subtitulos"><span>11:00 a.m a 2:00 p.m.</span></div>
                     </div>
                   </div>
                 </div>

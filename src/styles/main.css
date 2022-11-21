@@ -14,6 +14,12 @@
     
 }
 
+.btn-primary {
+    color: #ffffff;
+    background-color: #aa4db0;
+    border-color: #d90cfd
+}
+
 .btnNav:hover{
    
     background-color: var(--ColorPink);
@@ -39,9 +45,10 @@
 }
 
 :root{
-    --ColorPink: #F5B9CB;
-    --ColorPinkDark: #EB7380  ;
+    --ColorPink: #aa4db0;
+    --ColorPinkDark: #aa4db0  ;
     --ColorWhite: white ;
+    --ColorPinks: hsl(294, 65%, 68%);
 }
 
 footer{

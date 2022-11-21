@@ -7,21 +7,21 @@ let myFooter = `
         </div>
         <div class="col-sm footerIcons">
           <h5 class="footerTitle">SIGUENOS</h2>
-            <img src="../src/images/icons/whatsapp.png" alt="imagen telefono" width="35px" class="iconStyle " />
-            <img src="../src/images/icons/correo.png" alt="imagen email" width="35px" class="iconStyle" />
-            <!-- <img src="src/images/icons/facebook.png" alt="imagen facebook" width="35px" class="iconStyle" />
-            <img src="src/images/icons/instagram.png" alt="imagen instagram" width="35px" class="iconStyle" /> -->
+          <a href="https://api.whatsapp.com/send?phone=525540635775"><img src="../src/images/icons/whatsapp.png" alt="imagen telefono" width="35px" class="iconStyle " /></a>
+            <!--<img src="../src/images/icons/correo.png" alt="imagen email" width="35px" class="iconStyle" />-->
+            <img src="../src/images/icons/facebook.png" alt="imagen facebook" width="35px" class="iconStyle" />
+            <img src="../src/images/icons/instagram.png" alt="imagen instagram" width="35px" class="iconStyle" />
         </div>
       </div>
     </div>
     <div class="footerStyle">
-      <small>&copy; 2022 <b>Sweet Dreams</b> - Todos los Derechos Reservados.</small>
+      <small>&copy; 2022 <b>Gylicia Bakery </b> - Todos los Derechos Reservados.</small>
     </div>
   </footer>`
   anclaFooter.innerHTML = myFooter;
 
   let myWhass =`
-  <a href="https://api.whatsapp.com/send?phone=525561160225" class="btn-wsp" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone=525540635775" class="btn-wsp" target="_blank">
     <i class="fa fa-whatsapp icono"></i>
   </a>
   `

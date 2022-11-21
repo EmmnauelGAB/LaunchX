@@ -12,7 +12,7 @@ let myNavbarPage = `
         <a class="nav-link active btn btnNav" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
         <a class="nav-link btn btnNav" href="./pasteles.html">Pasteles</a>
         <a class="nav-link btn btnNav" href="./contacto.html">Contacto</a>
-        <a class="nav-link disabled">Postres</a>
+        <a class="nav-link btn btnNav" href="./politicas.html">Políticas</a>
       </div>
     </div>
   </nav>
