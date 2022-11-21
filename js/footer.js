@@ -8,9 +8,9 @@ let myFooter = `
         <div class="col-sm footerIcons">
           <h5 class="footerTitle">SIGUENOS</h2>
           <a href="https://api.whatsapp.com/send?phone=525540635775"><img src="../src/images/icons/whatsapp.png" alt="imagen telefono" width="35px" class="iconStyle " /></a>
-            <!--<img src="../src/images/icons/correo.png" alt="imagen email" width="35px" class="iconStyle" />-->
+            <!--<img src="../src/images/icons/correo.png" alt="imagen email" width="35px" class="iconStyle" />
             <img src="../src/images/icons/facebook.png" alt="imagen facebook" width="35px" class="iconStyle" />
-            <img src="../src/images/icons/instagram.png" alt="imagen instagram" width="35px" class="iconStyle" />
+            <img src="../src/images/icons/instagram.png" alt="imagen instagram" width="35px" class="iconStyle" />-->
         </div>
       </div>
     </div>
